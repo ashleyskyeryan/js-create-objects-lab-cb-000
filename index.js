@@ -1,7 +1,7 @@
 'use strict';
 
-function Dog (name, breed, age) {
-  self.name = name;
-  self.breed = breed;
-  self.age = age;
+function Dog(name, breed, age) {
+  this.name = name;
+  this.breed = breed;
+  this.age = age;
 }
